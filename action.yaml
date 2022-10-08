@@ -1,0 +1,10 @@
+name: Test GH Action
+description: Test how dependabot works with tagged versions of an action
+
+runs:
+  using: composite
+  steps:
+    - name: The 'Hello' step
+      shell: bash
+      run: |
+        echo Hello!
