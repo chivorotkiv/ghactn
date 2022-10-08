@@ -1,0 +1,13 @@
+name: wf
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  dependaboja:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dependaboja
+        uses: chivorotkiv/ghaction@master
