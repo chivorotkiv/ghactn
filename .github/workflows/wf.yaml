@@ -9,5 +9,5 @@ jobs:
   jb:
     runs-on: ubuntu-latest
     steps:
-      - name: Dependaboja
+      - name: GH Action step
         uses: chivorotkiv/ghaction@v0.0.0
