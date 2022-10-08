@@ -6,8 +6,8 @@ on:
       - master
 
 jobs:
-  dependaboja:
+  jb:
     runs-on: ubuntu-latest
     steps:
       - name: Dependaboja
-        uses: chivorotkiv/ghaction@master
+        uses: chivorotkiv/ghaction@v0.0.0
