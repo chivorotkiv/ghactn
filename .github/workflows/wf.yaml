@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: GH Action step
-        uses: chivorotkiv/ghaction@v8.8.8
+        uses: chivorotkiv/ghaction@9.9.9
